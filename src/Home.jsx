@@ -1,13 +1,10 @@
-import './App.css'
 import { FaRegClock } from "react-icons/fa";
 import { IoPeopleSharp } from "react-icons/io5";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 
-function App() {
-
-  return (
-    <>
-      <div className='flex justify-center md:mt-20'>
+const Home = () => {
+    return (
+        <div className='flex justify-center md:mt-20'>
         <div className='md:flex gap-[5px]'>
           {/* 1st card */}
           <div className='w-[234px] mt-[19px]'>
@@ -125,8 +122,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
-  )
-}
+    );
+};
 
-export default App
+export default Home;
